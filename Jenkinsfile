@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('error') {
       steps {
-        sh 'print ${env.name}'
+        sh 'print "${env.name}"'
       }
     }
 
