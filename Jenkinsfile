@@ -1,11 +1,14 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('error') {
       steps {
-        sh 'print $env.name'
+        sh 'print ${env.name}'
       }
     }
 
+  }
+  environment {
+    name = 'davidperez01/zuulservice'
   }
 }
