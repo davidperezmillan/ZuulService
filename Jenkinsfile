@@ -6,7 +6,7 @@ pipeline {
   stages {
     stage('Clone') {
       steps {
-        git(url: 'https://github.com/davidperezmillan/ZuulService.git', branch: 'main', changelog: true)
+        # git(url: 'https://github.com/davidperezmillan/ZuulService.git', branch: 'main', changelog: true)
       }
     }
     stage('Clean') {
