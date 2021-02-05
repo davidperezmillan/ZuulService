@@ -1,4 +1,4 @@
-package com.nonave.dockerspringnetflix;
+package com.nonave.zuulservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
